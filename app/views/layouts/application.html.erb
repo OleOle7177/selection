@@ -1,14 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Selection</title>
+  <title>Центр спортивной селекции</title>
+  
+  <%= stylesheet_link_tag    'bootstrap', media: 'all', 'data-turbolinks-track' => true %>
+  <%= stylesheet_link_tag    'grayscale', media: 'all', 'data-turbolinks-track' => true %>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <%= csrf_meta_tags %>
-</head>
-<body>
 
-<%= yield %>
+
+  <%= csrf_meta_tags %>
+
+</head>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+  <%= yield %>
+
+  <!-- Scripts -->
+  <%= javascript_include_tag('jquery.js') %>
+  <%= javascript_include_tag('bootstrap.min.js') %>
+  <%= javascript_include_tag('jquery.easing.min.js') %>
+  <%= javascript_include_tag('grayscale.js') %>
 
 </body>
 </html>
