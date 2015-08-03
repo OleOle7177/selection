@@ -1,0 +1,9 @@
+/home/oleg/.rvm/rubies/ruby-2.2.2/bin/ruby -r ./siteconf20150802-23338-uunafz.rb extconf.rb
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+make: Цель `all' не требует выполнения команд.
+
+make "DESTDIR=" install
