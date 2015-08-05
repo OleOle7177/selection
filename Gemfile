@@ -25,8 +25,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'capistrano', '~>2.0'
 gem 'unicorn'
-gem 'nokogiri', '~> 1.6.6.2'
-gem 'net-ssh', '!= 2.10.0'
+gem 'net-ssh', '2.10.0.beta2'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
