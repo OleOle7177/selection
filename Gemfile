@@ -27,6 +27,8 @@ gem 'capistrano', '~>2.0'
 gem 'unicorn'
 gem 'net-ssh', '2.10.0.beta2'
 
+gem 'bootstrap-sass'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
