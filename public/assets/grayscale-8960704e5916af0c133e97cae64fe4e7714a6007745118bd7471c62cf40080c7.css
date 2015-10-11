@@ -1,0 +1,479 @@
+/*!
+ * Start Bootstrap - Grayscale Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+/* line 8, /home/oleg/projects/selection/app/assets/stylesheets/grayscale.css.scss */
+body {
+  width: 100%;
+  height: 100%;
+  font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: #fff;
+  background-color: #fff;
+}
+
+/* line 16, /home/oleg/projects/selection/app/assets/stylesheets/grayscale.css.scss */
+html {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 21, /home/oleg/projects/selection/app/assets/stylesheets/grayscale.css.scss */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 25px;
+  text-transform: uppercase;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+/* line 34, /home/oleg/projects/selection/app/assets/stylesheets/grayscale.css.scss */
+p {
+  margin: 0 0 25px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+@media (min-width: 768px) {
+  /* line 41, /home/oleg/projects/selection/app/assets/stylesheets/grayscale.css.scss */
+  p {
+    margin: 0 0 35px;
+    font-size: 18px;
+    line-height: 1.6;
+  }
+}
+/* line 48, /home/oleg/projects/selection/app/assets/stylesheets/grayscale.css.scss */
+a {
+  color: #51a351;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+/* line 55, /home/oleg/projects/selection/app/assets/stylesheets/grayscale.css.scss */
+.link a {
+  color: white;
+  font-size: 26px;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+/* line 63, /home/oleg/projects/selection/app/assets/stylesheets/grayscale.css.scss */
+.link a:hover, a:focus {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.8);
+  background-color: transparent;
+}
+
+/* line 69, /home/oleg/projects/selection/app/assets/stylesheets/grayscale.css.scss */
+a:hover,
+a:focus {
+  text-decoration: none;
+  color: #1d9b6c;
+}
+
+/* line 75, /home/oleg/projects/selection/app/assets/stylesheets/grayscale.css.scss */
+.light {
+  font-weight: 400;
+}
+
+/* line 79, /home/oleg/projects/selection/app/assets/stylesheets/grayscale.css.scss */
+.navbar-custom {
+  margin-bottom: 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  text-transform: uppercase;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  background-color: #000;
+}
+
+/* line 87, /home/oleg/projects/selection/app/assets/stylesheets/grayscale.css.scss */
+.navbar-custom .navbar-brand {
+  font-weight: 700;
+}
+
+/* line 91, /home/oleg/projects/selection/app/assets/stylesheets/grayscale.css.scss */
+.navbar-custom .navbar-brand:focus {
+  outline: 0;
+}
+
+/* line 95, /home/oleg/projects/selection/app/assets/stylesheets/grayscale.css.scss */
+.navbar-custom .navbar-brand .navbar-toggle {
+  padding: 4px 6px;
+  font-size: 16px;
+  color: #fff;
+}
+
+/* line 101, /home/oleg/projects/selection/app/assets/stylesheets/grayscale.css.scss */
+.navbar-custom .navbar-brand .navbar-toggle:focus,
+.navbar-custom .navbar-brand .navbar-toggle:active {
+  outline: 0;
+}
+
+/* line 106, /home/oleg/projects/selection/app/assets/stylesheets/grayscale.css.scss */
+.navbar-custom a {
+  color: #fff;
+}
+
+/* line 110, /home/oleg/projects/selection/app/assets/stylesheets/grayscale.css.scss */
+.navbar-custom .nav li a {
+  -webkit-transition: background .3s ease-in-out;
+  -moz-transition: background .3s ease-in-out;
+  transition: background .3s ease-in-out;
+}
+
+/* line 116, /home/oleg/projects/selection/app/assets/stylesheets/grayscale.css.scss */
+.navbar-custom .nav li a:hover {
+  outline: 0;
+  color: rgba(255, 255, 255, 0.8);
+  background-color: transparent;
+}
+
+/* line 122, /home/oleg/projects/selection/app/assets/stylesheets/grayscale.css.scss */
+.navbar-custom .nav li a:focus,
+.navbar-custom .nav li a:active {
+  outline: 0;
+  background-color: transparent;
+}
+
+/* line 128, /home/oleg/projects/selection/app/assets/stylesheets/grayscale.css.scss */
+.navbar-custom .nav li.active {
+  outline: 0;
+}
+
+/* line 132, /home/oleg/projects/selection/app/assets/stylesheets/grayscale.css.scss */
+.navbar-custom .nav li.active a {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+/* line 136, /home/oleg/projects/selection/app/assets/stylesheets/grayscale.css.scss */
+.navbar-custom .nav li.active a:hover {
+  color: #fff;
+}
+
+@media (min-width: 768px) {
+  /* line 141, /home/oleg/projects/selection/app/assets/stylesheets/grayscale.css.scss */
+  .navbar-custom {
+    padding: 20px 0;
+    border-bottom: 0;
+    letter-spacing: 1px;
+    background: 0 0;
+    -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+    -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+    transition: background .5s ease-in-out,padding .5s ease-in-out;
+  }
+
+  /* line 151, /home/oleg/projects/selection/app/assets/stylesheets/grayscale.css.scss */
+  .navbar-custom.top-nav-collapse {
+    padding: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    background: #000;
+  }
+}
+/* line 158, /home/oleg/projects/selection/app/assets/stylesheets/grayscale.css.scss */
+.intro {
+  display: table;
+  width: 100%;
+  height: auto;
+  padding: 100px 0;
+  text-align: center;
+  color: #fff;
+  background: url(/assets/kids-running-15f3db8303d2987f41280b6f3a1fe0ff678872154da84c78653d9cb4d7c25df8.jpg) no-repeat bottom center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  font-size: 26px;
+}
+
+/* line 173, /home/oleg/projects/selection/app/assets/stylesheets/grayscale.css.scss */
+.intro .intro-body {
+  background-color: rgba(0, 0, 0, 0.6);
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/* line 179, /home/oleg/projects/selection/app/assets/stylesheets/grayscale.css.scss */
+.intro .intro-body .brand-heading {
+  font-size: 40px;
+}
+
+/* line 183, /home/oleg/projects/selection/app/assets/stylesheets/grayscale.css.scss */
+.intro .intro-body .intro-text {
+  font-size: 18px;
+}
+
+@media (min-width: 768px) {
+  /* line 188, /home/oleg/projects/selection/app/assets/stylesheets/grayscale.css.scss */
+  .intro {
+    height: 100%;
+    padding: 0;
+  }
+
+  /* line 193, /home/oleg/projects/selection/app/assets/stylesheets/grayscale.css.scss */
+  .intro .intro-body .brand-heading {
+    font-size: 100px;
+  }
+
+  /* line 197, /home/oleg/projects/selection/app/assets/stylesheets/grayscale.css.scss */
+  .intro .intro-body .intro-text {
+    font-size: 26px;
+  }
+}
+/* line 202, /home/oleg/projects/selection/app/assets/stylesheets/grayscale.css.scss */
+.btn-circle {
+  width: 70px;
+  height: 70px;
+  margin-top: 15px;
+  padding: 7px 16px;
+  border: 2px solid #fff;
+  border-radius: 100% !important;
+  font-size: 40px;
+  color: #fff;
+  background: 0 0;
+  -webkit-transition: background .3s ease-in-out;
+  -moz-transition: background .3s ease-in-out;
+  transition: background .3s ease-in-out;
+}
+
+/* line 217, /home/oleg/projects/selection/app/assets/stylesheets/grayscale.css.scss */
+.btn-circle:hover,
+.btn-circle:focus {
+  outline: 0;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+/* line 224, /home/oleg/projects/selection/app/assets/stylesheets/grayscale.css.scss */
+.btn-circle i.animated {
+  -webkit-transition-property: -webkit-transform;
+  -webkit-transition-duration: 1s;
+  -moz-transition-property: -moz-transform;
+  -moz-transition-duration: 1s;
+}
+
+/* line 231, /home/oleg/projects/selection/app/assets/stylesheets/grayscale.css.scss */
+.btn-circle:hover i.animated {
+  -webkit-animation-name: pulse;
+  -moz-animation-name: pulse;
+  -webkit-animation-duration: 1.5s;
+  -moz-animation-duration: 1.5s;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@-moz-keyframes pulse {
+  0% {
+    -moz-transform: scale(1);
+    transform: scale(1);
+  }
+  50% {
+    -moz-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+  100% {
+    -moz-transform: scale(1);
+    transform: scale(1);
+  }
+}
+/* line 276, /home/oleg/projects/selection/app/assets/stylesheets/grayscale.css.scss */
+.content-section {
+  padding-top: 100px;
+}
+
+/* line 280, /home/oleg/projects/selection/app/assets/stylesheets/grayscale.css.scss */
+.download-section {
+  width: 100%;
+  padding: 100px 0;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* line 287, /home/oleg/projects/selection/app/assets/stylesheets/grayscale.css.scss */
+.price-section {
+  padding-top: 90px;
+  padding-bottom: 0px;
+  margin-bottom: 10px;
+}
+
+/* line 293, /home/oleg/projects/selection/app/assets/stylesheets/grayscale.css.scss */
+#about {
+  color: #333;
+}
+/* line 295, /home/oleg/projects/selection/app/assets/stylesheets/grayscale.css.scss */
+#about p {
+  text-align: left;
+}
+/* line 299, /home/oleg/projects/selection/app/assets/stylesheets/grayscale.css.scss */
+#about img {
+  border-radius: 4px;
+}
+/* line 303, /home/oleg/projects/selection/app/assets/stylesheets/grayscale.css.scss */
+#about .features {
+  margin-left: 10px;
+  font-size: 18px;
+}
+/* line 308, /home/oleg/projects/selection/app/assets/stylesheets/grayscale.css.scss */
+#about .person {
+  margin-bottom: 10px;
+}
+
+/* line 313, /home/oleg/projects/selection/app/assets/stylesheets/grayscale.css.scss */
+#price {
+  color: #333;
+}
+
+/* line 317, /home/oleg/projects/selection/app/assets/stylesheets/grayscale.css.scss */
+#work {
+  color: #333;
+  background: url(/assets/dnk-1627d7f2be20f7818f9a0b7d6fffd94fd11a58f08410b0763194cfa7de99f9b6.jpg) no-repeat center center scroll;
+  background-color: #000;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+/* line 326, /home/oleg/projects/selection/app/assets/stylesheets/grayscale.css.scss */
+#work p {
+  text-align: left;
+}
+
+/* line 331, /home/oleg/projects/selection/app/assets/stylesheets/grayscale.css.scss */
+#map {
+  width: 100%;
+  height: 200px;
+  margin-top: 100px;
+}
+
+@media (min-width: 767px) {
+  /* line 338, /home/oleg/projects/selection/app/assets/stylesheets/grayscale.css.scss */
+  .content-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  /* line 343, /home/oleg/projects/selection/app/assets/stylesheets/grayscale.css.scss */
+  .download-section {
+    padding: 100px 0;
+  }
+
+  /* line 347, /home/oleg/projects/selection/app/assets/stylesheets/grayscale.css.scss */
+  .price-section {
+    /*height: 400px;*/
+    padding-top: 150px;
+    margin-bottom: 50px;
+  }
+}
+/* line 355, /home/oleg/projects/selection/app/assets/stylesheets/grayscale.css.scss */
+.btn {
+  border-radius: 4px;
+  text-transform: uppercase;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 400;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+/* line 365, /home/oleg/projects/selection/app/assets/stylesheets/grayscale.css.scss */
+.btn-default {
+  border: 1px solid #51a351;
+  outline: 0;
+  color: #000;
+  background-color: #51a351;
+  /*background-color: transparent;*/
+}
+
+/* line 373, /home/oleg/projects/selection/app/assets/stylesheets/grayscale.css.scss */
+.btn-default:hover,
+.btn-default:focus {
+  border: 1px solid #51a351;
+  outline: 0;
+  color: white;
+  background-color: #51a351;
+}
+
+/* line 381, /home/oleg/projects/selection/app/assets/stylesheets/grayscale.css.scss */
+ul.banner-social-buttons {
+  margin-top: 0;
+}
+
+@media (max-width: 1199px) {
+  /* line 386, /home/oleg/projects/selection/app/assets/stylesheets/grayscale.css.scss */
+  ul.banner-social-buttons {
+    margin-top: 15px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 392, /home/oleg/projects/selection/app/assets/stylesheets/grayscale.css.scss */
+  ul.banner-social-buttons li {
+    display: block;
+    margin-bottom: 20px;
+    padding: 0;
+  }
+
+  /* line 398, /home/oleg/projects/selection/app/assets/stylesheets/grayscale.css.scss */
+  ul.banner-social-buttons li:last-child {
+    margin-bottom: 0;
+  }
+}
+/* line 403, /home/oleg/projects/selection/app/assets/stylesheets/grayscale.css.scss */
+footer {
+  color: #333;
+  margin-top: 100px;
+  padding: 40px 0px 20px 0px;
+}
+/* line 408, /home/oleg/projects/selection/app/assets/stylesheets/grayscale.css.scss */
+footer p {
+  margin: 0;
+}
+
+/* line 413, /home/oleg/projects/selection/app/assets/stylesheets/grayscale.css.scss */
+::-moz-selection {
+  text-shadow: none;
+  background: #fcfcfc;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+/* line 419, /home/oleg/projects/selection/app/assets/stylesheets/grayscale.css.scss */
+::selection {
+  text-shadow: none;
+  background: #fcfcfc;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+/* line 425, /home/oleg/projects/selection/app/assets/stylesheets/grayscale.css.scss */
+img::selection {
+  background: 0 0;
+}
+
+/* line 429, /home/oleg/projects/selection/app/assets/stylesheets/grayscale.css.scss */
+img::-moz-selection {
+  background: 0 0;
+}
+
+/* line 433, /home/oleg/projects/selection/app/assets/stylesheets/grayscale.css.scss */
+body {
+  webkit-tap-highlight-color: rgba(255, 255, 255, 0.2);
+}
