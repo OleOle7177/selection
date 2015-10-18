@@ -402,7 +402,7 @@ a:focus {
   outline: 0;
   color: #000;
   background-color: #51a351;
-  /*background-color: transparent;*/
+  white-space: normal;
 }
 
 /* line 373, /home/oleg/projects/selection/app/assets/stylesheets/grayscale.css.scss */

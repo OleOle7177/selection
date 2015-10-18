@@ -54,7 +54,8 @@ default_run_options[:pty] = true
 
 # Имя вашего проекта в панели управления.
 # Не меняйте это значение без необходимости, оно используется дальше.
-set :application,     "selection-test"
+# set :application,     "selection-test"
+set :application,     "selection"
 
 # Сервер размещения проекта.
 set :deploy_server,   "phosphorus.locum.ru"
